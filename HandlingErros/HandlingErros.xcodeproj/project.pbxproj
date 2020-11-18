@@ -13,6 +13,7 @@
 		CEFE22F12565C74700B448AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFE22EF2565C74700B448AC /* Main.storyboard */; };
 		CEFE22F32565C74A00B448AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFE22F22565C74A00B448AC /* Assets.xcassets */; };
 		CEFE22F62565C74A00B448AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFE22F42565C74A00B448AC /* LaunchScreen.storyboard */; };
+		CEFE23002565CB7200B448AC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE22FF2565CB7200B448AC /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEFE22F22565C74A00B448AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFE22F52565C74A00B448AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFE22F72565C74A00B448AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFE22FF2565CB7200B448AC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CEFE22E82565C74700B448AC /* HandlingErros */ = {
 			isa = PBXGroup;
 			children = (
+				CEFE22FE2565CB6200B448AC /* Helper */,
 				CEFE22E92565C74700B448AC /* AppDelegate.swift */,
 				CEFE22EB2565C74700B448AC /* SceneDelegate.swift */,
 				CEFE22ED2565C74700B448AC /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				CEFE22F72565C74A00B448AC /* Info.plist */,
 			);
 			path = HandlingErros;
+			sourceTree = "<group>";
+		};
+		CEFE22FE2565CB6200B448AC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE22FF2565CB7200B448AC /* Alert.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				CEFE22EE2565C74700B448AC /* ViewController.swift in Sources */,
 				CEFE22EA2565C74700B448AC /* AppDelegate.swift in Sources */,
+				CEFE23002565CB7200B448AC /* Alert.swift in Sources */,
 				CEFE22EC2565C74700B448AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
